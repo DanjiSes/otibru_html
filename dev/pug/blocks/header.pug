@@ -1,0 +1,291 @@
+#scrolltop &#8250;
+
+main.main
+  .container
+    .main__submenu
+      .row
+        .col-6.phone Горячая линия: 
+          a(href="tel:996554980970") +996 544 980 970
+        .col-6.links
+          a.lang_link(href="?lang=ru") RU
+          a.lang_link(href="?lang=en") EN
+          a.lang_link(href="?lang=kg") KG
+          a(href="#")
+            img(src="static/img/facebook.svg", alt="")
+
+    header.main__header
+      nav
+        ul.main__nav
+          li
+            a(href="#product").scroll Продукт
+          li
+            a(href="#inst").scroll Инструкция
+          li
+            a(href="#where").scroll Где куить?
+    .product
+      .row.align-items-center
+        .product__img.col-sm-7
+          img(src="static/img/product.png", alt="ОТИБРЮ капли шуные")
+        .product__action.col-sm-5
+          .product__title
+            h1.product__name Отибрю
+            p.product__desc Капли ушные
+            p.product__sub Феназон + лидокаина гидрохлорид
+          ul.product__list
+            li.product__item Для детей и взрослых
+            li.product__item Избавит вас от отита
+            li.product__item Быстрое и противовоспалительное действие 
+            li.product__item Гарантированный результат
+            li.product__item Европейское качество
+          a.btn(href="#where").scroll Где купить?
+
+  .radius
+    img(src="static/img/white_radius.png", alt="")
+
+section.nav
+  .container
+    .nav__list
+      a.nav__item.scroll(href="#product")
+        img(src="static/img/nav1.png", alt="")
+        p Видео
+      a.nav__item.scroll(href="#product")
+        img(src="static/img/nav2.png", alt="")
+        p Брошюра 1
+      a.nav__item.scroll(href="#product")
+        img(src="static/img/nav3.png", alt="")
+        p Брошюра 2
+      a.nav__item.scroll(href="#product")
+        img(src="static/img/nav4.png", alt="")
+        p Брошюра 3
+      a.nav__item.scroll(href="#product")
+        img(src="static/img/nav5.png", alt="")
+        p Инструкция
+
+  .radius
+    img(src="static/img/green_radius.png", alt="")
+
+section.brochure
+  .container
+    .row.align-items-center
+      .col-md-5
+        h1.brochure__title Наши брошюры!
+      .col-md-7
+        .row.brochure__list
+          .col-md-4.brochure__item
+            .img
+              img(src="static/img/brochure.png")
+            a(href="") Брошюра
+          .col-md-4.brochure__item
+            .img
+              img(src="static/img/brochure.png")
+            a(href="") Брошюра       
+          .col-md-4.brochure__item
+            .img
+              img(src="static/img/brochure.png")
+            a(href="") Брошюра
+
+section.ills
+  .container
+    .ills__list.row.align-items-center
+      .ills__item.col-md-6.col-lg-3
+        p Двойное действие
+      .ills__item.col-md-6.col-lg-3
+        p Против боли и вопаления
+      .ills__item.col-md-6.col-lg-3
+        p Эффект через 15 минут
+      .ills__item.col-md-6.col-lg-3
+        p Разрешенно даже новорожденным
+
+section.video#product
+  .container
+    .row.align-items-center
+      .col-lg-9.video__preview-wrap
+        .video__preview
+          img(src="static/img/video.png", alt="Посмотрите наше видео")
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ZbofJucjkSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      .col.video__arrow
+        p Посмотрите наше видео!
+
+section.video.video__reverse
+  .container
+    .row.align-items-center
+      .col-lg-9.video__preview-wrap
+        .video__preview
+          img(src="static/img/video.png", alt="Посмотрите наше видео")
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ZbofJucjkSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      .col.video__arrow
+
+section.inst#inst
+  h1.title Инструкция по медицинскому применению
+  .container
+    .inst__item
+      .img
+        img(src="static/img/docx.png", alt="Инструкция")
+      a(href="#") Инструкия на кусском <b>(RU)</b>
+
+section.buy
+  h1.title Хотите купить онлайн?
+  .container
+    .row
+      .col-md-4.buy__action
+        p Заказывайте нашу продукцию онлайн, в таких аптеках, как:
+      .col
+        .row
+          a.col(href="javascript:void(0)")
+            img(src="static/img/1.png", alt="")
+          a.col(href="javascript:void(0)")
+            img(src="static/img/2.png", alt="")
+          a.col(href="javascript:void(0)")
+            img(src="static/img/3.png", alt="")
+          a.col(href="javascript:void(0)")
+            img(src="static/img/4.png", alt="")
+
+section.where#where
+  h1.title Горячая линия
+  .container
+    .row
+      .col-md-6.where__item
+        img(src="static/img/mail.png", alt="")
+        a(href="mailto:brkg@gmail.com") brkg@gmail.com
+      .col-md-6.where__item
+        img(src="static/img/tel.png", alt="")
+        a(href="tel:996554980970") +996 544 980 970
+
+//- section.where#where
+//-   h1.title Где можно приобрести наш продукт в Бишкеке?
+//-   .container
+//-     h3.where__title Сеть аптек: ОсОО "Фармстор" <br> Адреса:
+    
+//-     ul.row.where__list
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, Юлиуса Фучика,1 (офис)
+//-         p График работы: ежедневно 9:00-18:00
+//-         p Телефон: +996 (312) 97-34-06
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, Турусбекова, 82/1
+//-         p График работы: круглосуточно
+//-         p Телефон: +996 (312) 97-34-09
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, пр. Шабдан Баатыра, 41Б
+//-         p График работы: ежедневно 8:00-23:00
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, Гагарина, 1а
+//-         p График работы: круглосуточно
+//-         p Телефон: +996 (312) 97-30-05
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, Медерова, 44/1
+//-         p График работы: ежедневно 8:00-23:00
+//-         p Телефон: +996 (312) 97-34-61; +996 557 54-85-54
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, Тоголока Молдо, 61
+//-         p График работы: круглосуточно
+//-         p Телефон: +996 (312) 97-34-59
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, Чортекова, 204
+//-         p График работы: Пн-Сб 00:00-24:00
+//-         p Воскресенье - выходной
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, Суеркулова, 42/2
+//-         p График работы: круглосуточно
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, 8-й микрорайон, 8/3
+//-         p График работы: круглосуточно
+//-         p Телефон: +996 552 24-91-24
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, пр. Ч. Айтматова, 299в
+//-         p График работы: ежедневно 8:00-24:00
+//-         p Телефон: +996 552 24-91-24
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, пр. Жибек-Жолу, 422
+//-         p График работы: круглосуточно
+//-         p Телефон: +996 (312) 97-34-60
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, 7 апреля, 21Б/1
+//-         p График работы: круглосуточно
+//-         p Телефон: +996 (312) 97-34-57
+//-       li.col-md-6
+//-         p Адрес: с. Новопавловка, Фрунзе, 151
+//-         p График работы: круглосуточно
+//-         p Телефон: +996 704 97-34-06
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, Матросова, 1а/22
+//-         p График работы: ежедневно 8:00-23:00
+//-         p Телефон: +996 (312) 97-34-62
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, Н. Жетикашкаевой, 29
+//-         p График работы: ежедневно 8:00-21:00
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, Тунгуч мкр., 36/4а
+//-         p График работы: круглосуточно
+//-         p Телефон: +996 (312) 97-34-53
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, Гагарина, 275а
+//-         p График работы: круглосуточно
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, Циолковского, 86а
+//-         p График работы: Пн-Сб 8:30-19:00
+//-         p Воскресенье - выходной
+//-         p Телефон: +996 706 74-85-06
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, Хвойная, 64
+//-         p График работы: ежедневно 8:00-23:00
+//-         p Телефон: +996 (312) 97-34-56
+
+//-     .slider
+//-       .slider__btn
+
+//-     h3.where__title Сеть аптек: ОсОО "Фармстор" <br> Адреса:
+    
+//-     ul.row.where__list
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, Юлиуса Фучика,1 (офис)
+//-         p График работы: ежедневно 9:00-18:00
+//-         p Телефон: +996 (312) 97-34-06
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, Турусбекова, 82/1
+//-         p График работы: круглосуточно
+//-         p Телефон: +996 (312) 97-34-09
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, пр. Жибек-Жолу, 422
+//-         p График работы: круглосуточно
+//-         p Телефон: +996 (312) 97-34-60
+//-       li.col-md-6
+//-         p Адрес: г. Бишкек, 7 апреля, 21Б/1
+//-         p График работы: круглосуточно
+//-         p Телефон: +996 (312) 97-34-57
+    
+//-     .slider
+//-       .slider__btn
+
+section.partner
+  .container
+    .row.align-items-center
+      .col-lg-7.col-xl-8.partner__question
+        h1.title У вас есть аптека? <br>
+          span Желаете с нами сотрудничать?
+        p Оставьте заявку на нашем сайте, мы обязательно свяжемся с вами в течении суток!
+      .col
+        form.partner__form
+          h2 Форма заявки
+          input(type="text", placeholder="*Почта")
+          input(type="text", placeholder="*Телефон")
+          button.btn Оставить заявку
+
+section.inn
+  .container
+    .row.align-items-center
+      .col-md-4.col-lg-6.inn__logo
+        img(src="static/img/logo.png", alt="Brupharmexport. Ваше здоровье - наша работа")
+      .col-md-8.col-lg-6
+        p.
+          <b>Регистрационный номер KG 1.3.125.03083-2015</b> <br><br>
+          <b>Владелец регистрационного свидетельства</b><br>
+          Брюфармэкспорт с.п.р.п., 14 Рю де ла Гротт, B-1020,<br>
+          Брюссель, Бельгия<br>
+          AUT 558H<br>
+        <a href="">
+        .inn__link.
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 408.788 408.788" style="enable-background:new 0 0 408.788 408.788;" xml:space="preserve">
+          <path style="fill:#465993;" d="M353.701,0H55.087C24.665,0,0.002,24.662,0.002,55.085v298.616c0,30.423,24.662,55.085,55.085,55.085        h147.275l0.251-146.078h-37.951c-4.932,0-8.935-3.988-8.954-8.92l-0.182-47.087c-0.019-4.959,3.996-8.989,8.955-8.989h37.882        v-45.498c0-52.8,32.247-81.55,79.348-81.55h38.65c4.945,0,8.955,4.009,8.955,8.955v39.704c0,4.944-4.007,8.952-8.95,8.955        l-23.719,0.011c-25.615,0-30.575,12.172-30.575,30.035v39.389h56.285c5.363,0,9.524,4.683,8.892,10.009l-5.581,47.087        c-0.534,4.506-4.355,7.901-8.892,7.901h-50.453l-0.251,146.078h87.631c30.422,0,55.084-24.662,55.084-55.084V55.085        C408.786,24.662,384.124,0,353.701,0z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+          </a>

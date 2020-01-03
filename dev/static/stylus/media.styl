@@ -1,0 +1,191 @@
+// MOBILE FIRST --------------------------------------------------------------------
+
+// // Small --------------------------------------------------------------------
+
+// @media (min-width: 576px)
+  
+//  body
+//    background-color #111
+
+// // Medium --------------------------------------------------------------------
+
+// @media (min-width: 768px)
+
+//  body
+//    background-color #222
+
+// // Large --------------------------------------------------------------------
+
+// @media (min-width: 992px)
+
+//  body
+//    background-color #333
+
+// // Extra large --------------------------------------------------------------------
+
+// @media (min-width: 1200px)
+
+//  body
+//    background-color #444
+
+// DESKTOP FIRST --------------------------------------------------------------------
+
+// // Extra large --------------------------------------------------------------------
+
+// @media (max-width: 1200px)
+
+//  body
+//    background-color #444
+
+// // Large --------------------------------------------------------------------
+
+@media (max-width: 992px)
+  
+  .radius
+    display none
+
+  .product
+    
+    &__name
+      font-size rem(50)
+    
+    &__desc
+      font-size rem(25)
+      margin 0 0 15px 0
+    
+    .btn
+      font-size rem(18)
+      padding 15px 40px
+  
+  .nav
+    padding 50px 0
+    
+    &__list
+      flex-wrap wrap
+    
+    &__item
+      margin 15px 0 !important    
+  
+  .video
+    
+    &__preview
+      
+      &-wrap
+        order 2
+    
+    &__arrow
+      order 1
+      margin 0 0 35px 0
+      
+      &:after
+        display none
+  
+  .buy
+    
+    .title
+      margin 0 0 25px 0
+    
+    &__action
+      margin 0 0 15px 0
+      
+      p
+        width 100%
+        text-align center
+      
+      &:after
+        display none
+  
+  .partner
+    
+    &__question
+      margin 0 0 35px 0
+    
+    &__form
+      max-width 320px
+      margin 0 auto
+  
+  .brochure
+    
+    &__title
+      
+      &:after
+        display none
+
+// Medium --------------------------------------------------------------------
+
+@media (max-width: 768px)
+  
+  html
+    font-size 15px
+  
+  .product
+    
+    &__item
+      padding 0
+      
+      &:after
+        margin -6px 0 0 0
+        width 12px
+        left -19px
+  
+  .inst
+    
+    ul
+      
+      li
+        margin 0 0 25px 0
+  
+  .inn
+    
+    &__logo
+      margin 0 0 15px 0
+      
+      img
+        max-width 250px
+  
+  .brochure
+    text-align center
+    
+    &__title
+      margin 0 0 35px 0
+    
+    &__item
+      margin 0 0 25px 0
+      
+      &:last-child
+        margin 0
+
+// Small --------------------------------------------------------------------
+
+@media (max-width: 576px)
+
+  .main
+    padding 50px 0
+    
+    &__nav
+      
+      li
+        
+        a
+          font-size 14px
+  
+  .product
+    padding-bottom 0
+    
+    &__title
+      margin 0 0 15px 0
+    
+    &__item
+      padding 0 0 0 25px
+      
+      &:after
+        margin -8px 0 0 0
+        left 0
+        width 15px
+  
+//   .partner
+    
+//     .title
+      
+//       span
+//         display none
